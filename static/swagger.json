@@ -1,0 +1,59 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "API para tradução e busca de conteúdo.",
+    "version": "1.0.0",
+    "title": "Translate API"
+  },
+  "host": "localhost:5000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/api/search": {
+      "get": {
+        "summary": "Buscar conteúdo traduzido",
+        "description": "Busca conteúdo no banco de dados e traduz para o idioma do termo de pesquisa.",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "description": "Termo de pesquisa",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "original": {
+                    "type": "object",
+                    "properties": {
+                      "titulo": { "type": "string" },
+                      "conteudo": { "type": "string" },
+                      "idioma": { "type": "string" }
+                    }
+                  },
+                  "translated_title": { "type": "string" },
+                  "translated_content": { "type": "string" }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Erro: Termo de pesquisa 'query' é obrigatório."
+          },
+          "500": {
+            "description": "Erro ao detectar idioma ou traduzir conteúdo."
+          }
+        }
+      }
+    }
+  }
+}

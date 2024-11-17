@@ -1,0 +1,74 @@
+[
+  {
+      "id": 1,
+      "titulo": "Aprendendo Python",
+      "idioma": "Português",
+      "autor": "Carlos Silva",
+      "conteudo": "Um guia introdutório para aprender Python.",
+      "data_publicacao": "2024-01-15"
+  },
+  {
+      "id": 2,
+      "titulo": "Learning Python",
+      "idioma": "Inglês",
+      "autor": "Carlos Silva",
+      "conteudo": "An introductory guide to learning Python.",
+      "data_publicacao": "2024-01-15"
+  },
+  {
+      "id": 3,
+      "titulo": "Aprendiendo Python",
+      "idioma": "Espanhol",
+      "autor": "Carlos Silva",
+      "conteudo": "Una guía introductoria para aprender Python.",
+      "data_publicacao": "2024-01-15"
+  },
+  {
+      "id": 4,
+      "titulo": "Introdução ao Machine Learning",
+      "idioma": "Português",
+      "autor": "Ana Santos",
+      "conteudo": "Conceitos básicos sobre machine learning.",
+      "data_publicacao": "2024-02-20"
+  },
+  {
+      "id": 5,
+      "titulo": "Introduction to Machine Learning",
+      "idioma": "Inglês",
+      "autor": "Ana Santos",
+      "conteudo": "Basic concepts of machine learning.",
+      "data_publicacao": "2024-02-20"
+  },
+  {
+      "id": 6,
+      "titulo": "Introducción al Aprendizaje Automático",
+      "idioma": "Espanhol",
+      "autor": "Ana Santos",
+      "conteudo": "Conceptos básicos de aprendizaje automático.",
+      "data_publicacao": "2024-02-20"
+  },
+  {
+      "id": 7,
+      "titulo": "Data Science for Beginners",
+      "idioma": "Inglês",
+      "autor": "John Doe",
+      "conteudo": "A beginner's guide to data science.",
+      "data_publicacao": "2024-03-10"
+  },
+  {
+      "id": 8,
+      "titulo": "Ciencia de Datos para Principiantes",
+      "idioma": "Espanhol",
+      "autor": "John Doe",
+      "conteudo": "Una guía para principiantes sobre ciencia de datos.",
+      "data_publicacao": "2024-03-10"
+  },
+  {
+      "id": 9,
+      "titulo": "Ciência de Dados para Iniciantes",
+      "idioma": "Português",
+      "autor": "John Doe",
+      "conteudo": "Um guia para iniciantes em ciência de dados.",
+      "data_publicacao": "2024-03-10"
+  }
+]
